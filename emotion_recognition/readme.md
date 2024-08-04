@@ -11,9 +11,7 @@
 7. [Results and Visualizations](#results-and-visualizations)
 8. [How to Run](#how-to-run)
 9. [Performance Analysis](#performance-analysis)
-10. [Future Improvements](#future-improvements)
-11. [Contributing](#contributing)
-12. [License](#license)
+10. [License](#license)
 
 ## Project Overview
 
@@ -225,39 +223,12 @@ The project provides a comprehensive analysis of model performance across differ
 
 The `plot_model_comparison` function in `main.py` generates a visualization comparing these metrics across all models and datasets.
 
-## Future Improvements
-
-1. Data Augmentation: Implement techniques like time stretching, pitch shifting, and adding background noise to enhance model robustness.
-
-2. Advanced Architectures: Explore transformer-based models or attention mechanisms for potentially improved performance.
-
-3. Real-time Prediction: Develop a module for real-time emotion recognition from audio input.
-
-4. Hyperparameter Optimization: Implement grid search or random search for optimal model configurations.
-
-5. Ensemble Methods: Combine predictions from multiple models to potentially improve overall accuracy.
-
-6. Cross-dataset Validation: Evaluate models trained on one dataset and tested on others to assess generalization.
-
-7. Emotion Intensity: Extend the model to predict not just emotion categories but also their intensities.
-
-8. Multimodal Analysis: Incorporate visual data (if available) for a more comprehensive emotion recognition system.
-
-## Contributing
-
-Contributions to improve the project are welcome. Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
 MIT License
 
-Copyright (c) 2024 [Your Name or Your Organization's Name]
+Copyright (c) 2024
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -266,17 +237,7 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 ---
 
 For any questions or issues, please open an issue on the GitHub repository.
-```
+
