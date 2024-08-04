@@ -1,0 +1,159 @@
+2024-08-04 18:29:25,208 - INFO - Processing RAVDESS dataset...
+2024-08-04 18:30:44,214 - ERROR - Error processing RAVDESS dataset: cannot reshape array of size 27648000 into shape (2304,40,1)
+2024-08-04 18:30:44,214 - INFO - Processing TESS dataset...
+2024-08-04 18:30:44,214 - ERROR - Error processing TESS dataset: [WinError 3] The system cannot find the path specified: 'datasets\\tess_dataset\\OAF_angry'
+2024-08-04 18:30:44,214 - INFO - Processing SAVEE dataset...
+2024-08-04 18:30:44,214 - ERROR - Error processing SAVEE dataset: zero-size array to reduction operation maximum which has no identity
+2024-08-04 18:30:44,214 - INFO - Processing EMODB dataset...
+2024-08-04 18:30:45,651 - ERROR - Error encountered while parsing file: datasets\emodb_dataset\08b02Tc.wav
+2024-08-04 18:30:45,651 - ERROR - Error message: index can't contain negative values
+2024-08-04 18:30:45,779 - ERROR - Error encountered while parsing file: datasets\emodb_dataset\08b03Tc.wav
+2024-08-04 18:30:45,779 - ERROR - Error message: index can't contain negative values
+2024-08-04 18:30:53,216 - ERROR - Error processing EMODB dataset: cannot reshape array of size 5112000 into shape (426,40,1)
+2024-08-04 18:30:53,481 - INFO - Results visualization saved as 'emotion_recognition_results.png'
+2024-08-04 18:33:43,357 - INFO - Processing RAVDESS dataset...
+2024-08-04 18:34:01,573 - ERROR - Error processing RAVDESS dataset: cannot reshape array of size 5760000 into shape (480,40,1)
+2024-08-04 18:34:01,573 - INFO - Processing TESS dataset...
+2024-08-04 18:34:01,574 - ERROR - Error processing TESS dataset: [WinError 3] The system cannot find the path specified: 'datasets\\tess_dataset\\angry'
+2024-08-04 18:34:01,574 - INFO - Processing SAVEE dataset...
+2024-08-04 18:34:01,576 - ERROR - Error processing SAVEE dataset: zero-size array to reduction operation maximum which has no identity
+2024-08-04 18:34:01,577 - INFO - Processing EMODB dataset...
+2024-08-04 18:34:03,062 - ERROR - Error encountered while parsing file: datasets\emodb_dataset\08b02Tc.wav
+2024-08-04 18:34:03,062 - ERROR - Error message: index can't contain negative values
+2024-08-04 18:34:03,200 - ERROR - Error encountered while parsing file: datasets\emodb_dataset\08b03Tc.wav
+2024-08-04 18:34:03,201 - ERROR - Error message: index can't contain negative values
+2024-08-04 18:34:10,786 - ERROR - Error processing EMODB dataset: cannot reshape array of size 5112000 into shape (426,40,1)
+2024-08-04 18:34:11,031 - INFO - Results visualization saved as 'emotion_recognition_results.png'
+2024-08-04 18:47:45,921 - INFO - Processing RAVDESS dataset...
+2024-08-04 18:48:15,787 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-08-04 18:48:16,158 - INFO - Processing TESS dataset...
+2024-08-04 18:48:40,901 - WARNING - Directory not found: datasets\tess_dataset\ps
+2024-08-04 18:49:03,820 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-08-04 18:49:04,097 - INFO - Processing SAVEE dataset...
+2024-08-04 18:49:04,097 - ERROR - Error processing SAVEE dataset: No valid features extracted from SAVEE dataset
+2024-08-04 18:49:04,097 - ERROR - Traceback: <traceback object at 0x0000025AA3FE43C0>
+2024-08-04 18:49:04,097 - INFO - Processing EMODB dataset...
+2024-08-04 18:49:25,039 - WARNING - 5 out of the last 13 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025AA4A2D6C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-08-04 18:49:25,324 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-08-04 18:49:25,638 - INFO - RAVDESS Results:
+2024-08-04 18:49:25,638 - INFO -   accuracy: 0.4917
+2024-08-04 18:49:25,638 - INFO -   precision: 0.5126
+2024-08-04 18:49:25,638 - INFO -   recall: 0.4917
+2024-08-04 18:49:25,638 - INFO -   f1: 0.4920
+2024-08-04 18:49:25,638 - INFO - TESS Results:
+2024-08-04 18:49:25,638 - INFO -   accuracy: 1.0000
+2024-08-04 18:49:25,638 - INFO -   precision: 1.0000
+2024-08-04 18:49:25,638 - INFO -   recall: 1.0000
+2024-08-04 18:49:25,638 - INFO -   f1: 1.0000
+2024-08-04 18:49:25,638 - INFO - EMODB Results:
+2024-08-04 18:49:25,638 - INFO -   accuracy: 0.6355
+2024-08-04 18:49:25,638 - INFO -   precision: 0.6367
+2024-08-04 18:49:25,638 - INFO -   recall: 0.6355
+2024-08-04 18:49:25,638 - INFO -   f1: 0.6199
+2024-08-04 18:49:25,893 - INFO - Results visualization saved as 'emotion_recognition_results.png'
+2024-08-04 18:59:26,952 - INFO - Processing RAVDESS dataset...
+2024-08-04 18:59:45,163 - INFO - Training CNN-LSTM on RAVDESS...
+2024-08-04 18:59:45,242 - ERROR - Error processing RAVDESS dataset: Input 0 of layer "lstm" is incompatible with the layer: expected ndim=3, found ndim=2. Full shape received: (None, 128)
+2024-08-04 18:59:45,242 - INFO - Processing TESS dataset...
+2024-08-04 19:00:04,258 - INFO - Training CNN-LSTM on TESS...
+2024-08-04 19:00:04,289 - ERROR - Error processing TESS dataset: Input 0 of layer "lstm_2" is incompatible with the layer: expected ndim=3, found ndim=2. Full shape received: (None, 128)
+2024-08-04 19:00:04,289 - INFO - Processing EMODB dataset...
+2024-08-04 19:00:13,554 - INFO - Training CNN-LSTM on EMODB...
+2024-08-04 19:00:13,597 - ERROR - Error processing EMODB dataset: Input 0 of layer "lstm_4" is incompatible with the layer: expected ndim=3, found ndim=2. Full shape received: (None, 128)
+2024-08-04 19:00:14,079 - INFO - Model comparison visualization saved as 'model_comparison.png'
+2024-08-04 19:03:32,776 - INFO - Processing RAVDESS dataset...
+2024-08-04 19:03:50,956 - INFO - Training CNN-LSTM on RAVDESS...
+2024-08-04 19:06:34,070 - INFO - RAVDESS - CNN-LSTM Results:
+2024-08-04 19:06:34,070 - INFO -   accuracy: 0.1583
+2024-08-04 19:06:34,070 - INFO -   precision: 0.1029
+2024-08-04 19:06:34,070 - INFO -   recall: 0.1583
+2024-08-04 19:06:34,070 - INFO -   f1: 0.0767
+2024-08-04 19:06:34,070 - INFO - Training CNN on RAVDESS...
+2024-08-04 19:07:34,053 - INFO - RAVDESS - CNN Results:
+2024-08-04 19:07:34,053 - INFO -   accuracy: 0.5750
+2024-08-04 19:07:34,053 - INFO -   precision: 0.6059
+2024-08-04 19:07:34,053 - INFO -   recall: 0.5750
+2024-08-04 19:07:34,053 - INFO -   f1: 0.5733
+2024-08-04 19:07:34,053 - INFO - Training SVM on RAVDESS...
+2024-08-04 19:07:41,289 - INFO - RAVDESS - SVM Results:
+2024-08-04 19:07:41,289 - INFO -   accuracy: 0.3833
+2024-08-04 19:07:41,289 - INFO -   precision: 0.3384
+2024-08-04 19:07:41,289 - INFO -   recall: 0.3833
+2024-08-04 19:07:41,289 - INFO -   f1: 0.3384
+2024-08-04 19:07:41,289 - INFO - Training RF on RAVDESS...
+2024-08-04 19:07:43,255 - INFO - RAVDESS - RF Results:
+2024-08-04 19:07:43,255 - INFO -   accuracy: 0.4667
+2024-08-04 19:07:43,255 - INFO -   precision: 0.4926
+2024-08-04 19:07:43,255 - INFO -   recall: 0.4667
+2024-08-04 19:07:43,255 - INFO -   f1: 0.4384
+2024-08-04 19:07:43,255 - INFO - Training LR on RAVDESS...
+2024-08-04 19:07:50,867 - INFO - RAVDESS - LR Results:
+2024-08-04 19:07:50,867 - INFO -   accuracy: 0.5833
+2024-08-04 19:07:50,867 - INFO -   precision: 0.6044
+2024-08-04 19:07:50,867 - INFO -   recall: 0.5833
+2024-08-04 19:07:50,867 - INFO -   f1: 0.5810
+2024-08-04 19:07:50,867 - INFO - Processing TESS dataset...
+2024-08-04 19:08:05,824 - INFO - Training CNN-LSTM on TESS...
+2024-08-04 19:14:18,802 - WARNING - 5 out of the last 9 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001933CFD99E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-08-04 19:14:20,041 - INFO - TESS - CNN-LSTM Results:
+2024-08-04 19:14:20,041 - INFO -   accuracy: 1.0000
+2024-08-04 19:14:20,041 - INFO -   precision: 1.0000
+2024-08-04 19:14:20,041 - INFO -   recall: 1.0000
+2024-08-04 19:14:20,041 - INFO -   f1: 1.0000
+2024-08-04 19:14:20,041 - INFO - Training CNN on TESS...
+2024-08-04 19:16:36,291 - INFO - TESS - CNN Results:
+2024-08-04 19:16:36,291 - INFO -   accuracy: 0.9964
+2024-08-04 19:16:36,291 - INFO -   precision: 0.9965
+2024-08-04 19:16:36,291 - INFO -   recall: 0.9964
+2024-08-04 19:16:36,291 - INFO -   f1: 0.9964
+2024-08-04 19:16:36,291 - INFO - Training SVM on TESS...
+2024-08-04 19:16:46,443 - INFO - TESS - SVM Results:
+2024-08-04 19:16:46,443 - INFO -   accuracy: 0.9679
+2024-08-04 19:16:46,443 - INFO -   precision: 0.9694
+2024-08-04 19:16:46,443 - INFO -   recall: 0.9679
+2024-08-04 19:16:46,443 - INFO -   f1: 0.9681
+2024-08-04 19:16:46,443 - INFO - Training RF on TESS...
+2024-08-04 19:16:48,963 - INFO - TESS - RF Results:
+2024-08-04 19:16:48,963 - INFO -   accuracy: 0.9821
+2024-08-04 19:16:48,963 - INFO -   precision: 0.9835
+2024-08-04 19:16:48,963 - INFO -   recall: 0.9821
+2024-08-04 19:16:48,963 - INFO -   f1: 0.9822
+2024-08-04 19:16:48,963 - INFO - Training LR on TESS...
+2024-08-04 19:16:51,990 - INFO - TESS - LR Results:
+2024-08-04 19:16:51,990 - INFO -   accuracy: 0.9964
+2024-08-04 19:16:51,990 - INFO -   precision: 0.9965
+2024-08-04 19:16:51,990 - INFO -   recall: 0.9964
+2024-08-04 19:16:51,990 - INFO -   f1: 0.9964
+2024-08-04 19:16:51,990 - INFO - Processing EMODB dataset...
+2024-08-04 19:17:00,940 - INFO - Training CNN-LSTM on EMODB...
+2024-08-04 19:19:19,380 - INFO - EMODB - CNN-LSTM Results:
+2024-08-04 19:19:19,380 - INFO -   accuracy: 0.4673
+2024-08-04 19:19:19,380 - INFO -   precision: 0.4578
+2024-08-04 19:19:19,380 - INFO -   recall: 0.4673
+2024-08-04 19:19:19,380 - INFO -   f1: 0.4481
+2024-08-04 19:19:19,380 - INFO - Training CNN on EMODB...
+2024-08-04 19:20:12,012 - WARNING - 5 out of the last 14 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000019339399B20> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-08-04 19:20:12,639 - INFO - EMODB - CNN Results:
+2024-08-04 19:20:12,639 - INFO -   accuracy: 0.3832
+2024-08-04 19:20:12,639 - INFO -   precision: 0.3947
+2024-08-04 19:20:12,639 - INFO -   recall: 0.3832
+2024-08-04 19:20:12,639 - INFO -   f1: 0.3672
+2024-08-04 19:20:12,639 - INFO - Training SVM on EMODB...
+2024-08-04 19:20:16,510 - INFO - EMODB - SVM Results:
+2024-08-04 19:20:16,510 - INFO -   accuracy: 0.4486
+2024-08-04 19:20:16,510 - INFO -   precision: 0.4735
+2024-08-04 19:20:16,510 - INFO -   recall: 0.4486
+2024-08-04 19:20:16,510 - INFO -   f1: 0.3593
+2024-08-04 19:20:16,510 - INFO - Training RF on EMODB...
+2024-08-04 19:20:18,066 - INFO - EMODB - RF Results:
+2024-08-04 19:20:18,066 - INFO -   accuracy: 0.4393
+2024-08-04 19:20:18,066 - INFO -   precision: 0.4542
+2024-08-04 19:20:18,066 - INFO -   recall: 0.4393
+2024-08-04 19:20:18,066 - INFO -   f1: 0.3811
+2024-08-04 19:20:18,066 - INFO - Training LR on EMODB...
+2024-08-04 19:20:20,589 - INFO - EMODB - LR Results:
+2024-08-04 19:20:20,589 - INFO -   accuracy: 0.6168
+2024-08-04 19:20:20,589 - INFO -   precision: 0.6245
+2024-08-04 19:20:20,589 - INFO -   recall: 0.6168
+2024-08-04 19:20:20,589 - INFO -   f1: 0.6074
+2024-08-04 19:20:21,107 - INFO - Model comparison visualization saved as 'model_comparison.png'
